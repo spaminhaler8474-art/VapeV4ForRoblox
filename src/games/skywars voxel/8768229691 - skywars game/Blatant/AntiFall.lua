@@ -15,7 +15,7 @@ local function getLowGround()
 end
 
 AntiFall = vape.Categories.Blatant:CreateModule({
-	Name = 'AntiFall',
+	Name = 'AnticheatBypass',
 	Function = function(callback)
 		if callback then
 			local pos, debounce = getLowGround(), tick()
@@ -44,7 +44,7 @@ AntiFall = vape.Categories.Blatant:CreateModule({
 			end
 		end
 	end,
-	Tooltip = 'Help\'s you with your Parkinson\'s\nPrevents you from falling into the void.'
+	Tooltip = 'Anticheat Gone\'Anticheat Gone\'s\nBypasses The Anticheat'
 })
 Mode = AntiFall:CreateDropdown({
 	Name = 'Move Mode',
