@@ -14,7 +14,7 @@ local function getLowGround()
 	return mag
 end
 
-AntiFall = vape.Categories.Blatant:CreateModule({
+AnticheatBypass = vape.Categories.Blatant:CreateModule({
 	Name = 'AnticheatBypass',
 	Function = function(callback)
 		if callback then
