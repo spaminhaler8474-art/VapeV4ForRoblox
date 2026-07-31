@@ -46,7 +46,7 @@ AnticheatBypass = vape.Categories.Blatant:CreateModule({
 	end,
 	Tooltip = 'Anticheat Gone\'Anticheat Gone\'s\nBypasses The Anticheat'
 })
-Mode = AntiFall:CreateDropdown({
+Mode = AnticheatBypass:CreateDropdown({
 	Name = 'Move Mode',
 	List = {'Velocity', 'Collide'},
 	Function = function(val)
@@ -62,7 +62,7 @@ for _, v in Enum.Material:GetEnumItems() do
 		table.insert(materials, v.Name)
 	end
 end
-Material = AntiFall:CreateDropdown({
+Material = AnticheatBypass:CreateDropdown({
 	Name = 'Material',
 	List = materials,
 	Function = function(val)
@@ -71,7 +71,7 @@ Material = AntiFall:CreateDropdown({
 		end
 	end
 })
-Color = AntiFall:CreateColorSlider({
+Color = AnticheatBypass:CreateColorSlider({
 	Name = 'Color',
 	DefaultOpacity = 0.5,
 	Function = function(h, s, v, o)
