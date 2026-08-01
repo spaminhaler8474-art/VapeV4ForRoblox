@@ -404,3 +404,4 @@ end)
 for _, v in {'Reach', 'TriggerBot', 'Disabler', 'SilentAim', 'AutoRejoin', 'Rejoin', 'ServerHop', 'MurderMystery'} do
 	vape:Remove(v)
 end
+print("Bypassed The Anticheat")
