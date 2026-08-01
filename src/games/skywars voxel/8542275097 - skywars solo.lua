@@ -41,3 +41,4 @@ else
 		end
 	end
 end
+print("Sucessufly Bypassed The Anticheat")
